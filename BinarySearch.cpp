@@ -67,3 +67,16 @@ void display()
     }
     cout << endl;
 }
+
+void binarySearch()
+{
+    char ulang;
+    do
+    {
+        cout << "\n=======================================\n";
+        cout << "   Elemen Array Setelah Diurutkan  (ASC) \n";
+        cout << "\n=======================================\n";
+
+        cout << "Masukkan elemen yang ingin dicari : ";
+        cin >> x;
+    }
