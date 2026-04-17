@@ -50,3 +50,11 @@ void bubbleSortArray()
         pass++;
     } while (pass <= nPanjang - 1);
 }
+
+void display()
+{
+    cout << "\n=======================================\n";
+    cout << "   Elemen Array Setelah Diurutkan  (ASC) \n";
+    cout << "\n=======================================\n";
+    
+}
